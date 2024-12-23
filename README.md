@@ -1,7 +1,7 @@
 # AmazonML-DBkaScam
 
 
-This repository contains the code and resources used by Team **DBkaScam** for the Amazon ML Challenge 2024. Our project involved developing machine learning models to address [specific problem statement - briefly summarize the challenge if not confidential].
+This repository contains the code and resources used by Team **DBkaScam** for the Amazon ML Challenge 2024. Our project involved developing machine learning models to extract entity values from given images in the required format. Our solution got the **6th Rank** and was presented to Amazon Scientists in the Grand Finale!
 
 ## Table of Contents
 
