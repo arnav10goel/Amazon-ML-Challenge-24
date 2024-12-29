@@ -33,7 +33,7 @@ The image above shows the zero-shot curated prompt we used to prompt `MiniCPM-2.
 We employed few-shot learning to improve upon frequently-observed model mistakes in our ZSP approach. Thus we curated a pool of few-shot exemplars consisting of frequent model errors segregated by category. At inference time, we sampled based on the input image and provided three exemplars to better augment the model output. The prompt for the same is shared above.
 
 ### Supervised Fine-Tuning (SFT)
-- We utilised (LLaMa-Factory)[https://github.com/hiyouga/LLaMA-Factory] (Zheng et al., 2024) for performing parameter-efficient SFT on Qwen2-VL-7B using 8-bit QLoRA.
+- We utilised [LLaMa-Factory](https://github.com/hiyouga/LLaMA-Factory) (Zheng et al., 2024) for performing parameter-efficient SFT on Qwen2-VL-7B using 8-bit QLoRA.
 - We fine-tuned `Qwen2-VL-7b` on 150000 samples with a batch size of 16 for 1 epoch for this experiment.
 
 ### Post-Processing
