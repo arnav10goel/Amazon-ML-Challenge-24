@@ -48,6 +48,19 @@ Post-processing was an important part of our solution to ensure handling of edge
    - Symbols not listed in the reference appendix are removed using instruction-tuned few-shot learning and rule-based algorithms.  
 
 ## Results
-<img width="453" alt="Screenshot 2024-12-30 at 4 22 46 AM" src="https://github.com/user-attachments/assets/2eaee579-a0c9-4daf-95d5-ed7c70d80d36" />
 
-The results table shows the various model combinations tried by us and the final results achieved by our best performing model.
+The results table shows the various model combinations tried by us and the final results achieved by our best-performing model.
+
+| **Strategy**       | **Model**       | **F1 Score** |
+|---------------------|-----------------|-------------:|
+| **ZSP**            | MiniCPM-2.6     | **66.2**     |
+|                     | InternVL2-8B   | 65.9         |
+| **ZSP + PostProc** | MiniCPM-2.6     | **69.3**     |
+|                     | InternVL2-8B   | 68.2         |
+| **SFT**           | Qwen2-7B-SFT    | 64.8         |
+| **FSL**           | Qwen2-7B        | **70.9**     |
+| **Ensemble Methods** | ZSP-1 + ZSP-2 | 68.5         |
+|                     | SFT + ZSP-1    | 70.7         |
+|                     | SFT + FSL      | 71.4         |
+|                     | SFT + FSL + ZSP-1 | **71.8**  |
+
