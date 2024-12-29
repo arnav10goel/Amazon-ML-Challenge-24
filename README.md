@@ -11,9 +11,7 @@ This repository contains the code and resources used by Team **DBkaScam** for th
 4. [Preprocessing](#preprocessing)
 5. [Modeling](#modeling)
 6. [Results](#results)
-7. [Conclusion and Future Work](#conclusion-and-future-work)
-8. [How to Use](#how-to-use)
-9. [Team](#team)
+7. [Team](#team)
 
 ---
 
